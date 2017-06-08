@@ -1,0 +1,1 @@
+"use strict";jQuery(document).ready(function(t){t(".newsticker").newsTicker({row_height:43,max_rows:1,speed:600,direction:"up",duration:4e3,autostart:1,pauseOnHover:0,prevButton:t("#prev-button"),nextButton:t("#next-button")}),t("#input-file").change(function(){t("#input-file-wrapper").attr("data-file",this.value)})});
